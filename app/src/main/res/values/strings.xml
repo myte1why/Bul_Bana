@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bul Bana</string>
+    <string name="title_activity_dispatcher">dispatcher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_secim">secim</string>
+    <string name="parse_app_id">bGRsHHpVfaPR1PukJp5JYsh7CAo7Ji1byTRCkRrZ</string>
+    <string name="parse_client_key">gPmhvULRPbaBpXkE3qLNqmEQIrd98S9otxUsUTtB</string>
+    <string name="google_maps_api_key">AIzaSyColahqx6aEAoI__iBPl1IyKJYYh9Jt9Uk</string>
+    <string name="facebook_app_id">399762630185009</string>
+    <string name="twitter_consumer_key">gAsv6MvEIDU9sI5mPzJMjfsGA</string>
+    <string name="twitter_consumer_secret">YCUo9ntqahpcAHjeHNtIz8ehJcIhYXcbIvY0nKhwhSVii1OQL0</string>
+    <string name="title_activity_harita_gorunumu">haritaGorunumu</string>
+    <string name="title_activity_secilen_ayrintili_gorunum">secilenAyrintiliGorunum</string>
+    <string name="point_out_of_range">Seçtiğiniz alanın dışında kalmaktadır.</string>
+    <string name="settings_distance_format">%d feet</string>
+    <string name="search_distance">Search Distance</string>
+    <string name="logout_full">Log out of Anywall</string>
+
+    <string-array name="turler">
+        <item>Kuaför</item>
+        <item>Manikür-Pedikür</item>
+        <item>Agdacı</item>
+        <item>Parfümeri</item>
+    </string-array>
+
+    <integer name="distance">10</integer>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+</resources>
