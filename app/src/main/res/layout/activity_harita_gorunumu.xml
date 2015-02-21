@@ -6,17 +6,11 @@
 
 
     <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.MapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.google.android.gms.maps.MapFragment"
-        android:id="@+id/fragment" />
-
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/list"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:visibility="invisible" />
+        android:layout_alignParentTop="true" />
 </RelativeLayout>

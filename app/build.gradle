@@ -25,5 +25,4 @@ dependencies {
     compile project(':ParseLoginUI')
     compile 'com.google.android.gms:play-services:6.+'
     compile 'com.android.support:support-v4:+'
-    compile project(':picasso-2.5.0')
 }

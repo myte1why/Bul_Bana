@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
 
     <TextView
+        android:id="@+id/tloc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/tFirmaAdi" />
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
+        android:id="@+id/tFirmaAdi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tloc"
         android:text="Medium Text"
-        android:id="@+id/tFiremaTelefon" />
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
+        android:id="@+id/tFiremaTelefon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tFirmaAdi"
         android:text="Medium Text"
-        android:id="@+id/tFirmaAdres" />
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
+        android:id="@+id/tFirmaAdres"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tFiremaTelefon"
+        android:background="#ff0010ff"
         android:text="Medium Text"
-        android:id="@+id/tSaat" />
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
-</LinearLayout>
+</RelativeLayout>
